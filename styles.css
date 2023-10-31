@@ -1,3 +1,6 @@
+* {
+    background-color: rgba(245, 245, 220, 0.46);
+}
 table {
     border: 1px solid black;
 }
@@ -7,8 +10,8 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     font-size: 100px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 0px;
     letter-spacing: 2px;
 }
 
@@ -39,19 +42,18 @@ table {
     color: white;
 }
 
-.tablebody .name {
-    background-color: rgb(234, 196, 162);
-}
-
 .name {
     padding: 15px;
+    background-color: rgb(234, 196, 162);
 }
 
 .tag {
     padding: 15px;
+    background-color: rgba(234, 196, 162, 0.5);
 }
 
 .description {
     text-align: justify;
     padding: 15px;
+    background-color: rgba(234, 196, 162, 0.2);
 }
