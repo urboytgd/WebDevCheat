@@ -1,0 +1,57 @@
+table {
+    border: 1px solid black;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+span {
+    font-style: italic;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+}
+code {
+    font-size: 15px;
+    text-align: center;
+}
+
+p, h2, h3 {
+    text-align: center;
+}
+
+/* Table Customization */
+
+table {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tablenav th {
+    background-color: rgb(89, 188, 105);
+    color: white;
+}
+
+.tablebody .name {
+    background-color: rgb(234, 196, 162);
+}
+
+.name {
+    padding: 15px;
+}
+
+.tag {
+    padding: 15px;
+}
+
+.description {
+    text-align: justify;
+    padding: 15px;
+}
